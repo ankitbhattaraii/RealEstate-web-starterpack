@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.h-wrapper {
+  background-color: var(--black);
+}
+
+.h-container {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+.h-menu a {
+  margin-left: 20px;
+  padding: 20px 20px 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button{
+    background-color: blue;
+}
+
+.button:hover{
+    background-color: rgb(42, 52, 22);
+}
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .paddings {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .primaryText {
+    font-size: 1.5rem;
+  }
+  .orangeText {
+    font-size: 1.2rem;
+  }
+}
